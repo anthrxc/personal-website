@@ -1,7 +1,12 @@
+h1 {
+    font-family: Ubuntu;
+    text-align: center;
+    color: #f0f0f0;
+    filter: drop-shadow(0 0 0.5rem #ffffff);
+}
 h3 {
     font-family: Ubuntu;
     color: #f0f0f0;
-
 }
 h4 {
     font-family: Ubuntu;
