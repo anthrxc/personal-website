@@ -1,3 +1,3 @@
-# [Personal Website](https://aanthr0.is-a.dev/)
+# Personal Website
 
-To be hosted on [BlueFox](https://bluefoxhost.com/)
+File structure designed for use with nginx
