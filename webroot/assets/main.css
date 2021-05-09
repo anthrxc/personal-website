@@ -1,16 +1,40 @@
 body {
 	background-color: #151515;
 }
-h1 {
-	color: #f0f0f0;
+
+nav {
+	background-color: #202020;
+	filter: drop-shadow(0 0 0.75rem #050505);
 	font-family: Ubuntu;
-	filter: drop-shadow(0 0 0.25rem #ffffff);
+	color: #f0f0f0;
 }
+
 p {
 	color: #f0f0f0;
 	font-family: Ubuntu;
 }
-.logo {
-	max-height: 4vh;
-	margin: 2vh 0 0 1vw;
+
+str {
+	font-family: Ubuntu;
+	color: #ffffff;
+	filter: drop-shadow(0 0 0.25rem #ffffff);
 }
+
+.logo {
+	min-height: 3vh;
+	max-height: 3vh;
+	margin-left: 0.5vw;
+}
+
+.nav-link {
+	margin: 0 0.3vw;
+}
+
+p.w3-large {
+	margin-top: 0.7vh;
+}
+
+.cnt {
+	font-family: Ubuntu;
+	color: #f0f0f0;
+} 
