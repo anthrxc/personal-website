@@ -36,5 +36,45 @@ p.w3-large {
 
 .cnt {
 	font-family: Ubuntu;
+	font-size: 35px;
 	color: #f0f0f0;
-} 
+}
+
+.pfp {
+	border-radius: 50%;
+	border: 5px solid #f0f0f0;
+	filter: drop-shadow(0 0 0.5rem #ffffff);
+	max-height: 200px;
+	margin-bottom: 1vh
+}
+
+.sep {
+	margin: auto;
+	width: 70%
+}
+
+.sep-wdr {
+	margin: auto;
+	width: 100%
+}
+
+.btn-group {
+	margin-top: 1vh;
+}
+
+.color-white {
+	color: #000000;
+	background-color: #ffffff;
+	border-color: #ffffff;
+}
+
+.color-gray {
+	color: #f0f0f0;
+	background-color: #202020;
+	border-color: #202020;
+}
+.color-gray:hover {
+	color: #f0f0f0;
+	background-color: #252525;
+	border-color: #252525;
+}
