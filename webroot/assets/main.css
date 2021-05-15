@@ -27,7 +27,6 @@ str {
 }
 
 .logo {
-	min-height: 3vh;
 	max-height: 3vh;
 	margin-left: 0.5vw;
 }
@@ -90,6 +89,18 @@ a {
 	border-color: #252525;
 }
 
+.color-dark-gray {
+	color: #f0f0f0;
+	background-color: #151515;
+	border-color: #151515;
+	max-width: 15rem;
+}
+.color-dark-gray:hover {
+	color: #f0f0f0;
+	background-color: #252525;
+	border-color: #252525;
+}
+
 .top-3 {
 	margin-top: 3vh;
 } 
@@ -98,4 +109,18 @@ a {
 	margin-top: 5vh;
 	margin-left: 1vw;
 	position: absolute;
+}
+
+.card {
+	margin: 2vh 1vw;
+	color: #f0f0f0;
+	background-color: #202020;
+	width: 100%;
+	min-width: fit-content;
+}
+
+@media(min-width: 650px) {
+	.card {
+		width: 100%
+	}
 }
