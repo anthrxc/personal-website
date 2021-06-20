@@ -112,11 +112,12 @@ a {
 }
 
 .card {
-	margin: 2vh 1vw;
+	margin: 2vh 50%;
 	color: #f0f0f0;
 	background-color: #202020;
 	width: 100%;
 	min-width: fit-content;
+	max-width: 500px;
 }
 
 @media(min-width: 650px) {
